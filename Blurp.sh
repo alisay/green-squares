@@ -11,7 +11,7 @@ adjust() {
     PREVDATE=$(gdate -d "$1" +%Y-%m-%d)
 }
 
-adjust "26 October 2020"
+adjust "7 January 2025"
 
 for i in $(seq 0 1789); do
 	echo $i
